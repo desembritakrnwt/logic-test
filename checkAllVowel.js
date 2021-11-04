@@ -6,6 +6,9 @@ function checkVocal(string){
        return false
     }
   }
+const string = prompt('Enter vocal: ');
+const result = checkVocal(string);
+console.log(result);
 
 console.log(checkVocal('iueoaAAaAA')) //output: true
 console.log(checkVocal('iuesdoaAAasfaAA')) //output: false
